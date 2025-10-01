@@ -1,3 +1,7 @@
-# Theodore Weicker's Personal Website
+# Theodore's Personal Website
 
-# desc?
+This is a personal website built using the Hack4Impact Starter Pack!
+
+Thank you for checking out my website :D
+
+[Visit it Here!](https://<username>.github.io)
