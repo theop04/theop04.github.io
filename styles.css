@@ -76,10 +76,6 @@ body {
   font-family: Georgia;
 }
 
-.logo a:hover {
-  text-decoration: None;
-}
-
 main {
   padding: 0 20px 40px 20px;
   display: flex;
@@ -128,8 +124,8 @@ main {
 .project-details {
   display: flex;
   background-color: var(--cg-white);
-  width: 30%;
-  height: 500px;
+  width: 53%;
+  height: 300px;
   flex-shrink: 1;
   padding: 0 20px;
   margin: 0px;
@@ -270,4 +266,32 @@ form {
   bottom: 0;
   width: 100%;
   height: 2.5rem;
+}
+
+/* added rainbow gradient logo below */
+
+.logo a {
+  font-family: Georgia;
+  font-weight: bold;
+
+  background: linear-gradient(
+    90deg,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  transition: background 0.5s ease-in-out;
+}
+
+.logo a:hover {
+  background: none;
+  color: var(--cg-blue);
+  -webkit-text-fill-color: unset;
 }
