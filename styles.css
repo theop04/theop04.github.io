@@ -222,6 +222,15 @@ main {
   font-family: Georgia;
 }
 
+main.resume-page {
+  text-align: left;
+  align-items: flex-start;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  padding-bottom: 3rem;
+}
+
 /* CSS for contact form */
 
 label {
